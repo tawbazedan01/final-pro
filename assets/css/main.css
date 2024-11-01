@@ -1,0 +1,111 @@
+:root{
+    --mainColor: #060606;
+    --hoverColor: #f38e8c;
+    --linkColor: #ffffff;
+}
+body{
+    background-image: url('./../img/bg-imgs/bg-1.png');
+    background-size: cover;
+}
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-top: 40px;
+    --bs-nav-link-font-weight: 400 ;
+    --bs-nav-link-color: var(--mainColor);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar-nav .nav-item{
+    --bs-nav-link-hover-color: var(--linkColor);
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: var(--linkColor);
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: var(--hoverColor);
+    border: 0;
+
+}
+.dropdown-menu {
+    --bs-dropdown-bg: var(--hoverColor);
+    --bs-dropdown-link-active-bg: var(--mainColor); 
+}
+.get-start{
+    padding: 40px;
+    display: flex;
+    gap: 15px;
+}
+.register .btn, .login .btn{
+    border-radius: 5px;
+    font-weight: 500;
+    padding: 10px;
+    height: 50px;
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+
+}
+.login .btn{
+    width: 70px;
+}
+.register .btn:hover{
+    background-color: var(--linkColor);
+    color: var(--mainColor);
+}
+.login .btn:hover{
+    background-color: var(--linkColor);
+    color: var(--mainColor);
+}
+
+
+.header-1bg {
+    padding: 45px;
+    background-image: url('./../img/bg-imgs/img-pg1.png');
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: calc(70%);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.header-1bg .header-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.header-1bg .nav-link{
+    padding: 10px;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+}
+.header-1bg .nav-link:hover{
+    background-color: var(--hoverColor);
+}
+
+.rating span{
+  font-size: large;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icons{
+    display: flex;
+    gap: 10px;  
+    color: orange;
+}
