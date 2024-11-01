@@ -112,3 +112,11 @@ body{
         width: 100%;
     }
 }
+.products{
+    
+    height: 1200px;
+    background-color: #ffffff;
+}
+.card-contant .card {
+    background-color: #fff8ed;
+}
