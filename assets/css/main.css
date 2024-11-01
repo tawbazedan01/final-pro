@@ -47,13 +47,12 @@ body{
     gap: 15px;
 }
 .register .btn, .login .btn{
-    border-radius: 5px;
+    border-radius: 3px;
     font-weight: 500;
     padding: 10px;
     height: 50px;
     background-color: var(--mainColor);
     color: var(--linkColor);
-
 }
 .login .btn{
     width: 70px;
@@ -69,15 +68,11 @@ body{
 
 
 .header-1bg {
-    padding: 45px;
     background-image: url('./../img/bg-imgs/img-pg1.png');
     background-size: contain;
     background-position-y: center;
-    background-position-x: calc(70%);
+    background-position-x: calc(80%);
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 .header-1bg .header-content{
     display: flex;
@@ -95,7 +90,6 @@ body{
 .header-1bg .nav-link:hover{
     background-color: var(--hoverColor);
 }
-
 .rating span{
   font-size: large;
 }
@@ -103,9 +97,18 @@ body{
     display: flex;
     align-items: center;
     gap: 15px;
+    padding-bottom: 15px;
 }
 .icons{
     display: flex;
     gap: 10px;  
     color: orange;
+}
+@media  screen and (min-width:577) and (max-width:992px) {
+    .header-content .h1 .p1 {
+        width: 100%;
+    }
+    .container .header-2 {
+        width: 100%;
+    }
 }
