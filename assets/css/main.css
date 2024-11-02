@@ -113,10 +113,49 @@ body{
     }
 }
 .products{
-    
     height: 1200px;
     background-color: #ffffff;
 }
-.card-contant .card {
+.text-contant .nav-link{
+    padding: 10px;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+}
+.text-contant .nav-link:hover{
+    background-color: var(--hoverColor);
+}
+
+.col-md-4 .card {
     background-color: #fff8ed;
+    border: none;
+   border-radius: 0%;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card-body .add {
+    background-color: var(--mainColor);
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    color: var(--linkColor);
+}
+.card-body .price{
+    color: #e98634;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.card-body .add:hover {
+    text-decoration: underline;
+    background-color: var(--hoverColor);
+    
 }
