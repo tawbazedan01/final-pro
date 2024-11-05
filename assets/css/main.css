@@ -70,6 +70,14 @@ body{
     background-position-x: calc(80%);
     background-repeat: no-repeat;
 }
+.header-1bg .header-content h1{
+    width: 45%;
+    font-family: var(--mainFont);
+}
+.header-1bg .header-content .p1{
+    width: 48%;
+    
+}
 .header-1bg .header-content{
     display: flex;
     flex-direction: column;
@@ -86,6 +94,14 @@ body{
 }
 .header-1bg .nav-link:hover{
     background-color: var(--hoverColor);
+}
+.header-1bg .header-2 h2{
+    width: 60%;
+    font-family: var(--mainFont);
+    
+}
+.header-1bg .header-2 .p2{
+    width: 28%;
 }
 .rating span{
   font-size: large;
@@ -108,11 +124,26 @@ body{
         background-position: bottom;
         background-repeat: no-repeat;
     }
+    .header-1bg .header-content h1{
+        width: 90%;
+    }
+    .header-1bg .header-content .p1{
+        width: 78%;
+    }
+    .header-1bg .header-2 h2{
+        width: 90%; 
+    }
+    .header-1bg .header-2 .p2{
+        width: 60%;
+    }
 }
 .products{
     background-color: #ffffff;
 }
-
+.products .text-contant .beauty{
+    font-family: var(--mainFont); 
+    font-size: xx-large;
+}
 .text-contant .nav-link{
     padding: 10px;
     height: 50px;
@@ -163,8 +194,9 @@ body{
 }
 
 @media  screen and (max-width:768px) {
-    .text-contant .beauty{
-       
+    .products .text-contant .beauty{
+        font-family: var(--mainFont); 
+        font-size: large;
     }
     .flex-column {
         gap: 12px;
@@ -270,6 +302,7 @@ body{
     
     .section-3 .sec-contant .row{
         flex-direction: column;
+        gap: 15px;
 
     }
 }
