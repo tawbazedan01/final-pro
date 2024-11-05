@@ -134,7 +134,7 @@ body{
         width: 90%; 
     }
     .header-1bg .header-2 .p2{
-        width: 60%;
+        width: 45%;
     }
 }
 .products{
@@ -304,5 +304,66 @@ body{
         flex-direction: column;
         gap: 15px;
 
+    }
+}
+.section-4 {
+    background-image: url(../img/bg-imgs/bg-1.png);
+}
+.section-4 h2 {
+    width: 60%;
+    font-size: 55px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-4 p {
+    width: 50%;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-4 .row .col-12 {
+    position: relative;
+}
+.section-4 .row .nav-link {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+    padding: 8px;
+    width: 180px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: var(--mainFont);
+}
+.section-4 .row .nav-link:hover {
+    background-color: var(--hoverColor);
+}
+
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+    .section-4 .row .nav-link {
+        bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 949px) {
+    .section-4 .row .nav-link {
+        bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section-4 h2 {
+        width: 80%;
+        font-size: 35px;
+    }
+    .section-4 p {
+        width: 90%;
+    }
+    .section-4 .row .nav-link {
+        width: 40%;
+        font-size: 16px;
+        padding: 10px;
     }
 }
