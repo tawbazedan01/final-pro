@@ -588,6 +588,11 @@ body {
         gap: 10px;
         align-items: start;
     }
+
+    .section-7 .row .title-s7 {
+        width: 100%;
+        max-width: fit-content;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -620,5 +625,16 @@ body {
 
     .section-7 .row img {
         width: 350px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .section-7 .countdown .time-1 {
+        padding: 10px;
+        width: 100px;
+    }
+
+    .section-7 .row img {
+        width: 300px;
     }
 }
