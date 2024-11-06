@@ -5,7 +5,7 @@ function addToCart(e) {
     link.classList.add('view-cart');
 }
 
-document.querySelectorAll(".add").forEach(function(button) {
+document.querySelectorAll(".add").forEach(function (button) {
     button.onclick = addToCart;
 });
 
@@ -38,15 +38,18 @@ let intervalPlus = setInterval(countPlus, 50);
 let intervalMillion = setInterval(countMillion, 300);
 let intervalPercent = setInterval(countPercent, 50);
 
-const countDown=()=>{
-  const now = new Date().getTime();
-  const hours = Math.floor((now%86400000)/(3600000));
-  const minutes = Math.floor((now%(1000*60*60))/(60000));
-  const seconds = Math.floor((now%(1000*60))/(1000));
-  document.querySelector(".hours").textContent=hours;
-  document.querySelector(".minutes").textContent=minutes;
-  document.querySelector(".seconds").textContent=seconds;
+const countDown = () => {
+
+    const countDownDate = new Date("2024-11-08T00:00:00").getTime();
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
+    const hours = Math.floor((distance % 86400000) / (3600000));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (60000));
+    const seconds = Math.floor((distance % (1000 * 60)) / (1000));
+    document.querySelector(".hours").textContent = hours;
+    document.querySelector(".minutes").textContent = minutes;
+    document.querySelector(".seconds").textContent = seconds;
 }
-setInterval(()=>{
-  countDown();
-},1000)
+setInterval(() => {
+    countDown();
+}, 1000)
