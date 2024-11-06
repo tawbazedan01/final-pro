@@ -387,7 +387,7 @@ body{
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 620px;
+    height: 650px;
     width: 100%;
     max-width: 550px;
     margin: 0 auto;
@@ -410,8 +410,6 @@ body{
 }
 .section-5 .row .contant-s5 .testimonial-item {
     width: 100%;
-    padding: 15px; /* تباعد داخلي للعنصر */
-    margin-bottom: 20px; /* تباعد بين العناصر */
 }
 .section-5 .row .contant-s5 h3{
     font-family: var(--mainFont);
