@@ -548,6 +548,13 @@ body {
     background-color: #fafafa;
 }
 
+@media screen and (max-width: 775px) {
+    .section-6 {
+        display: none;
+    }
+
+}
+
 .section-7 {
     background-color: var(--linkColor);
     color: var(--mainColor);
