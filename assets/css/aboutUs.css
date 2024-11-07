@@ -147,6 +147,56 @@ body {
     }
 }
 
+.section-2 {
+    background-color: var(--linkColor);
+}
+
+.section-2 .container {
+    background-image: url('../img/bg-imgs/bg-2.png');
+}
+
+.section-2 .sec2-contant {
+    position: relative;
+    z-index: 1;
+}
+
+.section-2 .sec2-contant::after {
+    content: '';
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    height: .5px;
+    background-color: black;
+    z-index: -1;
+}
+
+.section-2 .sec2-contant .p {
+    font-family: var(--mainFont);
+    width: 75%;
+    font-weight: 600;
+    text-align: center;
+    font-size: large;
+}
+
+.section-2 .sec2-contant .nav-link {
+    text-align: center;
+    font-family: var(--mainFont);
+    padding: 5px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: var(--linkColor);
+    color: var(--mainColor);
+    border: 1px solid black;
+}
+
+.section-2 .sec2-contant::after {}
+
+.section-2 .sec2-contant .nav-link:hover {
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+
+}
 
 ------------ .footer-contant {
     background-image: url(../img/bg-imgs/bg-1.png);
