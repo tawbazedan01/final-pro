@@ -207,6 +207,69 @@ body {
     }
 }
 
+.section-3 {
+    background-color: var(--linkColor);
+}
+
+.section-3 .sec2-contant1 {
+    width: 90%;
+}
+
+.section-3 .sec2-contant2 {
+    width: 80%;
+}
+
+.section-3 .sec2-contant1 h1,
+.section-3 .sec2-contant2 .play-i h3 {
+    font-family: var(--mainFont);
+}
+
+.section-3 .sec2-contant2 .play-i i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: var(--hoverColor);
+    color: var(--linkColor);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1155px) {
+    .section-3 .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .section-3 .row {
+        align-items: start;
+    }
+
+    .section-3 .sec2-contant1 {
+        width: 100%;
+    }
+
+    .section-3 .sec2-contant2 {
+        width: 100%;
+    }
+
+    .section-3 .pic-sec3 img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-3 .pic-sec3 img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
 .section-6 {
     background-color: var(--linkColor);
 }
