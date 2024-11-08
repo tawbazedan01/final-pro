@@ -211,20 +211,20 @@ body {
     background-color: var(--linkColor);
 }
 
-.section-3 .sec2-contant1 {
+.section-3 .sec3-contant1 {
     width: 90%;
 }
 
-.section-3 .sec2-contant2 {
+.section-3 .sec3-contant2 {
     width: 80%;
 }
 
-.section-3 .sec2-contant1 h1,
-.section-3 .sec2-contant2 .play-i h3 {
+.section-3 .sec3-contant1 h1,
+.section-3 .sec3-contant2 .play-i h3 {
     font-family: var(--mainFont);
 }
 
-.section-3 .sec2-contant2 .play-i i {
+.section-3 .sec3-contant2 .play-i i {
     width: 40px;
     height: 40px;
     font-size: 20px;
@@ -246,17 +246,14 @@ body {
 
 @media screen and (max-width: 775px) {
     .section-3 .row {
-        align-items: start;
+        align-items: flex-start;
+        flex-direction: column;
     }
-
-    .section-3 .sec2-contant1 {
-        width: 100%;
+    .section-3 .sec3-contant1, 
+    .section-3 .sec3-contant2 {
+        width: 100%; 
+        margin: 10px 0; 
     }
-
-    .section-3 .sec2-contant2 {
-        width: 100%;
-    }
-
     .section-3 .pic-sec3 img {
         width: 400px;
         height: 400px;
@@ -264,9 +261,28 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+    .section-3 .sec3-contant1, 
+    .section-3 .sec3-contant2 {
+        width: 100%; 
+        padding: 0 15px;  
+    }
     .section-3 .pic-sec3 img {
         width: 300px;
         height: 300px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section-3 .sec3-contant1, 
+    .section-3 .sec3-contant2 {
+        width: 100%; 
+    }
+}
+@media screen and (max-width: 400px) {
+    .section-3 .sec3-contant1, 
+    .section-3 .sec3-contant2 {
+        width: 100%; 
+        padding: 0;
+        margin: 0;
     }
 }
 
