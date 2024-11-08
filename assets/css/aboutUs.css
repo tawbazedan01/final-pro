@@ -270,6 +270,56 @@ body {
     }
 }
 
+.section-4 {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-4 h1 {
+    font-size: 50px;
+    padding: 20px;
+    margin: 30px;
+    font-family: var(--mainFont);
+    text-align: center;
+
+}
+
+.section-4 .sec4-cocntant img {
+    border-radius: 50%;
+}
+
+.section-4 .sec4-cocntant img:hover {
+    transform: scale(1.08);
+}
+
+.section-4 .sec4-cocntant .card-title {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.section-4 .sec4-cocntant .card-title:hover {
+    background-color: var(--hoverColor);
+    color: var(--linkColor);
+}
+
+@media screen and (max-width: 775px) {
+    .section-4 .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-4 .row .sec4-cocntant {
+        width: 65%;
+    }
+
+    .section-4 .row .sec4-cocntant .card-title {
+        width: 100%;
+    }
+
+}
+
 .section-6 {
     background-color: var(--linkColor);
 }
