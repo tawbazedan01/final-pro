@@ -209,6 +209,7 @@ body {
 
 .section-3 {
     background-color: var(--linkColor);
+    width: 100%;
 }
 
 .section-3 .sec3-contant1 {
@@ -249,11 +250,13 @@ body {
         align-items: flex-start;
         flex-direction: column;
     }
-    .section-3 .sec3-contant1, 
+
+    .section-3 .sec3-contant1,
     .section-3 .sec3-contant2 {
-        width: 100%; 
-        margin: 10px 0; 
+        width: 100%;
+        margin: 10px 0;
     }
+
     .section-3 .pic-sec3 img {
         width: 400px;
         height: 400px;
@@ -261,26 +264,32 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .section-3 .sec3-contant1, 
+
+    .section-3 .sec3-contant1,
     .section-3 .sec3-contant2 {
-        width: 100%; 
-        padding: 0 15px;  
+        width: 100%;
+        padding: 0 15px;
     }
+
     .section-3 .pic-sec3 img {
         width: 300px;
         height: 300px;
     }
 }
+
 @media screen and (max-width: 500px) {
-    .section-3 .sec3-contant1, 
+
+    .section-3 .sec3-contant1,
     .section-3 .sec3-contant2 {
-        width: 100%; 
+        width: 100%;
     }
 }
+
 @media screen and (max-width: 400px) {
-    .section-3 .sec3-contant1, 
-    .section-3 .sec3-contant2 {
-        width: 100%; 
+
+    .section-3 .sec3-contant1 .p,
+    .section-3 .sec3-contant2 .p {
+        width: 100%;
         padding: 0;
         margin: 0;
     }
@@ -310,16 +319,6 @@ body {
     transform: scale(1.08);
 }
 
-.section-4 .sec4-cocntant .card-title {
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.section-4 .sec4-cocntant .card-title:hover {
-    background-color: var(--hoverColor);
-    color: var(--linkColor);
-}
-
 @media screen and (max-width: 775px) {
     .section-4 .row {
         flex-direction: column;
@@ -334,6 +333,22 @@ body {
         width: 100%;
     }
 
+}
+
+.section-5 {
+    background-color: var(--linkColor);
+}
+
+.section-5 i {
+    font-size: 12px;
+    padding: 5px;
+    border: 3px solid var(--hoverColor);
+    border-radius: 50%;
+    color: var(--hoverColor);
+}
+
+.section-5 .sec7-title h6 {
+    font-family: var(--mainFont);
 }
 
 .section-6 {
