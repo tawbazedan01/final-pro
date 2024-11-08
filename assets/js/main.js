@@ -38,11 +38,15 @@ let intervalPlus = setInterval(countPlus, 50);
 let intervalMillion = setInterval(countMillion, 300);
 let intervalPercent = setInterval(countPercent, 50);
 
-const countDown = () => {
 
-    const countDownDate = new Date("2024-11-08T00:00:00").getTime();
-    const now = new Date().getTime();
-    const distance = countDownDate - now;
+let countDownDate = new Date().getTime() + 86400000;
+const countDown = () => {
+    let now = new Date().getTime();
+    let distance = countDownDate - now;
+    if(distance<=0){
+        countDownDate = now + 86400000;
+        distance = countDownDate - now;
+    }
     const hours = Math.floor((distance % 86400000) / (3600000));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (60000));
     const seconds = Math.floor((distance % (1000 * 60)) / (1000));
