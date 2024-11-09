@@ -347,9 +347,44 @@ body {
     color: var(--hoverColor);
 }
 
-.section-5 .sec7-title h6 {
+.section-5 .sec5-title h6 {
     font-family: var(--mainFont);
 }
+
+@media screen and (max-width: 1050px) {
+
+    .section-5 .row {
+        flex-direction: column;
+    }
+
+    .section-5 .row .sec5-title {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .section-5 .row .sec5-title {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .col-8 {
+        flex-direction: column;
+    }
+
+    .sec5-title {
+        width: 100% !important;
+    }
+
+    .sec5-title .gap-1 {
+        width: 100% !important;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {}
 
 .section-6 {
     background-color: var(--linkColor);
