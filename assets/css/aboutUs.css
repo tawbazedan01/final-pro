@@ -251,8 +251,8 @@ body {
         flex-direction: column;
     }
 
-    .section-3 .sec3-contant1,
-    .section-3 .sec3-contant2 {
+    .section-3 .sec3-contant1 .col-7,
+    .section-3 .sec3-contant2 .border-top {
         width: 100%;
         margin: 10px 0;
     }
@@ -265,8 +265,8 @@ body {
 
 @media screen and (max-width: 600px) {
 
-    .section-3 .sec3-contant1,
-    .section-3 .sec3-contant2 {
+    .section-3 .sec3-contant1 .col-7,
+    .section-3 .sec3-contant2 .border-top {
         width: 100%;
         padding: 0 15px;
     }
@@ -278,20 +278,9 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-
-    .section-3 .sec3-contant1,
-    .section-3 .sec3-contant2 {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-
-    .section-3 .sec3-contant1 .p,
-    .section-3 .sec3-contant2 .p {
-        width: 100%;
-        padding: 0;
-        margin: 0;
+    .section-3 .pic-sec3 img {
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -421,15 +410,15 @@ body {
     background-color: var(--hoverColor);
 }
 
-.section-7 {
-    background-color: var(--linkColor);
-}
-
 @media screen and (max-width: 575px) {
     .section-6 .sec6-contant p {
         width: 100%;
     }
 
+}
+
+.section-7 {
+    background-color: var(--linkColor);
 }
 
 .section-7 h1,
@@ -490,6 +479,7 @@ body {
     }
 
 }
+
 .footer-contant {
     background-image: url(../img/bg-imgs/bg-1.png);
 }

@@ -124,9 +124,6 @@ body {
     background-color: var(--hoverColor);
 }
 
-.section-5 {
-    background-color: var(--linkColor);
-}
 
 @media screen and (max-width: 1000px) {
     .sec1-contant .row {
@@ -142,6 +139,10 @@ body {
     .sec1-contant .row .form {
         width: 100%;
     }
+}
+
+.section-5 {
+    background-color: var(--linkColor);
 }
 
 .section-5 i {
@@ -227,6 +228,13 @@ body {
 
 .section-6 .sec6-contant .nav-link:hover {
     background-color: var(--hoverColor);
+}
+
+@media screen and (max-width: 575px) {
+    .section-6 .sec6-contant p {
+        width: 100%;
+    }
+
 }
 
 .sec-7 {

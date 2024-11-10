@@ -183,6 +183,23 @@ body {
 }
 
 
+@media screen and (max-width: 1000px) {
+    .sec1-contant .row {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 775px) {
+
+    .sec1-contant .row .col-6,
+    .sec1-contant .row .form {
+        width: 100%;
+    }
+}
+
+
 .footer-contant {
     background-image: url(../img/bg-imgs/bg-1.png);
 }
