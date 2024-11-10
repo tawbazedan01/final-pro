@@ -131,6 +131,39 @@ body {
     background-color: #fafafa;
 }
 
+.sec-2 .row .col-12 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.sec-2 .row .col-12 .icon,
+.sec-2 .row .col-12 .contact {
+    text-align: center;
+    color: var(--mainColor);
+}
+
+.sec-2 .row .col-12 .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    color: var(--linkColor);
+    background-color: var(--hoverColor);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.sec-2 .row .col-12 .contact h4 {
+    font-family: var(--mainFont);
+}
+
+
+
 .sec1-contant {
     background-color: var(--linkColor);
 }
