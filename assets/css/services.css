@@ -261,11 +261,11 @@ body {
 }
 
 .section-7 h1,
-.section-7 .icons {
+.section-7 .icon {
     font-family: var(--mainFont);
 }
 
-.section-7 .icons i {
+.section-7 .icon i {
     font-size: 12px;
     padding: 5px;
     border: 3px solid var(--hoverColor);
