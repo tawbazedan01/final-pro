@@ -1,9 +1,7 @@
 @import url('./base.css');
-@import url('./base.css');
 
 body {
     background-image: url('./../img/bg-imgs/bg-1.png');
-    background-size: cover;
 }
 
 .navbar-nav {
