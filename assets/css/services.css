@@ -140,9 +140,140 @@ body {
     }
 }
 
-.price {}
+.price {
+    background-color: #fafafa;
+    color: var(--mainColor);
+}
 
-.package {}
+.price .contant-1 {
+    background-color: var(--linkColor);
+}
+
+.price .contant-1 h3 {
+    font-family: var(--mainFont);
+}
+
+.price .contant-1 .title-1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.price .contant-1 .title-1 h5 {
+    color: var(--hoverColor);
+    font-size: 20px;
+    font-family: var(--mainFont);
+}
+
+.price .contant-1 i {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--hoverColor);
+    color: var(--linkColor);
+    border-radius: 50%;
+}
+
+.price .contant-1 .nav-link {
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    font-family: var(--mainFont);
+    border-radius: 5px;
+}
+
+.price .contant-1 .nav-link:hover {
+    background-color: var(--hoverColor);
+}
+
+.price .contant-2 {
+    background-color: var(--hoverColor);
+}
+
+.price .contant-2 h3 {
+    font-family: var(--mainFont);
+}
+
+.price .contant-2 .title-1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.price .contant-2 .title-1 h5 {
+    color: #fff8ed;
+    font-size: 20px;
+    font-family: var(--mainFont);
+}
+
+.price .contant-2 i {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff8ed;
+    color: var(--hoverColor);
+    border-radius: 50%;
+}
+
+.price .contant-2 .nav-link {
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    font-family: var(--mainFont);
+    border-radius: 5px;
+}
+
+.price .contant-2 .nav-link:hover {
+    background-color: #fff8ed;
+    color: var(--hoverColor);
+}
+
+@media screen and (max-width:630px) {
+
+    .price .contant-1 .nav-link,
+    .price .contant-2 .nav-link {
+        width: 100%;
+    }
+}
+
+.package {
+    background-color: #fafafa;
+}
+
+.package .container {
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+}
+
+.package .contant,
+.package .nav-link {
+    font-family: var(--mainFont);
+}
+
+.package .nav-link {
+    padding: 15px;
+    background-color: #fff8ed;
+    color: var(--mainColor);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.package .nav-link:hover {
+    background-color: var(--hoverColor);
+
+}
+
+@media screen and (max-width:775px) {
+    .package .flex-md-row .contant {
+        width: 100%;
+    }
+}
 
 .rating span {
     font-size: large;
