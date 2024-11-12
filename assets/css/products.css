@@ -133,7 +133,6 @@ body {
 }
 
 .card-body .add:hover {
-    text-decoration: underline;
     background-color: var(--hoverColor);
 
 }
@@ -397,7 +396,6 @@ body {
 }
 
 .card-body .add:hover {
-    text-decoration: underline;
     background-color: var(--hoverColor);
 
 }
