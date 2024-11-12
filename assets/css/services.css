@@ -73,8 +73,23 @@ body {
     color: var(--mainColor);
 }
 
-.services {}
+.services {
+    background-color: #fafafa;
+}
 
+.services .col-12 .service {
+    background-color: var(--linkColor);
+    border: 1px solid black;
+}
+
+.services .col-12 .service .contant {
+    font-family: var(--mainFont);
+    font-size: 20px;
+}
+
+.services .col-12 .service .contant span {
+    color: var(--hoverColor);
+}
 
 .section-3 {
     background-color: #ffffff;
@@ -254,7 +269,61 @@ body {
     }
 }
 
-.section-6 {}
+.section-6 {
+    background-color: #fafafa;
+}
+
+.section-6 .row {
+    background-color: #fff8ed;
+}
+
+.section-6 .row .work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid black;
+}
+
+.section-6 .row h3,
+.section-6 .row h4 {
+    font-family: var(--mainFont);
+}
+
+.section-6 .row h3 {
+    padding: 15px;
+    color: var(--linkColor);
+    background-color: var(--hoverColor);
+}
+
+.section-6 .row .work h4 {
+    width: 30%;
+    margin: 0;
+}
+
+.section-6 .row .work p {
+    width: 60%;
+    margin: 0;
+}
+
+.section-6 .row h1,
+.section-6 .row h4 {
+    font-family: var(--mainFont);
+}
+
+@media (max-width: 775px) {
+    .section-6 .row .work h4 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .section-6 .row .work p {
+        width: 100%;
+        margin: 0;
+    }
+}
 
 .section-7 {
     background-color: var(--linkColor);
