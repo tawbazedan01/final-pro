@@ -380,6 +380,7 @@ body {
 
 .section-6 .container {
     background-image: url('../img/bg-imgs/pg-sec6.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(151, 144, 144, 0.4);
 }
 
 .section-6 .sec6-contant {
