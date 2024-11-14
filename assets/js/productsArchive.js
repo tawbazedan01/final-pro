@@ -17,7 +17,7 @@ function displayProducts(products) {
 
     products.forEach(product => {
         const productCard = `
-        <div class="col-md-3 mb-4">
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
             <div class="card p-3 h-100">
                 <img src="${product.imageURL}" class="card-img-top" alt="${product.name}">
                     <div class="card-body d-flex flex-column gap-1">
@@ -36,15 +36,15 @@ function displayProducts(products) {
 displayProducts(products);
 
 
-document.querySelector("#productSort").addEventListener("change", function(e){
+document.querySelector("#productSort").addEventListener("change", function (e) {
     const value = e.target.value;
-    if (value === "oldest"){
+    if (value === "oldest") {
         //فرز تصاعدي حسب التاريخ الاقدم
-        products.sort((a,b)=> new Date(a.dateAdded) - new Date(b.dateAdded));
+        products.sort((a, b) => new Date(a.dateAdded) - new Date(b.dateAdded));
 
-    }else if(value === "newest"){
+    } else if (value === "newest") {
         //فرز تنازلي حسب التاريخ الاحدث
-        products.sort((a,b)=> new Date(b.dateAdded) - new Date(a.dateAdded));
+        products.sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
     }
     displayProducts(products);
 });
