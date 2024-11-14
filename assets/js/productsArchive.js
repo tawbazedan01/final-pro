@@ -1,3 +1,4 @@
+
 const products = [
     { name: "Brightening Eye Serum", prise: 30, imageURL: "./assets/img/productsPage/product5.png", dateAdded: "2024-11-05" },
     { name: "Clarifying Face Wash", prise: 30, imageURL: "./assets/img/productsPage/product3.png", dateAdded: "2024-11-03" },
