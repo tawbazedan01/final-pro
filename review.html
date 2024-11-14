@@ -72,12 +72,15 @@
         </div>
     </header>
     <main>
+
+
         <section class="price p-5 w-100">
             <div class="container">
                 <div class="row pt-5">
                     <div class="img col-12 col-lg-6  p-5 ">
                         <i class="fa-solid fa-magnifying-glass"></i>
-                        <img src="./assets/img/productsPage/product1.png" width="500px" class="img-fluid" alt="Moisturizer SPF 30">
+                        <img src="./assets/img/productsPage/product1.png" width="500px" class="img-fluid"
+                            alt="Moisturizer SPF 30">
                     </div>
                     <div class="contant col-12 col-lg-6 p-5 ">
                         <div class="icon d-flex align-items-center gap-3">
@@ -116,34 +119,69 @@
         </section>
 
 
-        <section class="desc p-5">
 
+        <section class="desc p-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="card ">
+                        <div class="card">
                             <div class="card-header">
                                 <ul class="nav nav-pills card-header-pills">
                                     <li class="nav-item">
                                         <a class="nav-link" id="desc" href="./dec.html">Description</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" id="review" href="./review.html">Reviews (0)</a>
+                                        <a class="nav-link" href="./review.html" id="review">Reviews (0)</a>
                                     </li>
                                 </ul>
                             </div>
-                            <div class="card-body d-flex flex-column align-items-start" id="desc">
-                                <h3 style="font-family: var(--mainFont);">Description</h3>
-                                <p class="card-text">Turpis eu amet odio velit mattis eget amet egestas. Aliquet a
-                                    feugiat nisl lacus fermentum lectus ornare ut. Ut auctor justo purus enim malesuada
-                                    ut. Sed sit nunc neque facilisis ac. Et eros nulla condimentum viverra. Neque mattis
-                                    sed elit interdum metus elementum interdum lacus. Sem elit ac aliquet tincidunt ut.
-                                    Faucibus aliquam in malesuada ut at lectus et pharetra. Non ullamcorper ante in nibh
-                                    in ante blandit. Mattis facilisi id faucibus elementum diam natoque nisi volutpat. A
-                                    amet amet mattis viverra semper. Et id aliquam tincidunt lacus. Gravida cursus
-                                    pretium aliquam volutpat etiam in tristique varius nisl. Velit senectus pretium
-                                    elementum eget. Ac nibh id commodo etiam nullam vestibulum luctus.
-                                </p>
+                            <div class="card-body-1 pt-3 d-flex flex-column align-items-start" id="review">
+                                <div class="form-contant d-flex flex-column gap-0">
+                                    <h2 style="font-family: var(--mainFont);">Reviews</h2>
+                                    <p>There are no reviews yet. </p>
+                                    <p>Be the first to review “Moisturizer SPF 30”</p>
+                                    <p>Your email address will not be published. Required fields are marked *</p>
+                                </div>
+                                <div class="rating">
+                                    <p>Your rating *</p>
+                                    <div class="icon" style="color: var(--hoverColor);">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <form action="" class="pt-3">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="pb-2">Your review *</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Name *</label>
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" required>
+                                    </div>
+
+
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Email *</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" required>
+                                    </div>
+
+                                    <div class="form-check pb-3">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+                                            required>
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Save my name, email, and website in this browser for the next time I
+                                            comment.
+                                        </label>
+                                    </div>
+
+                                    <button type="submit" class="btn ">Submit</button>
+
+                                </form>
                             </div>
                         </div>
                     </div>
