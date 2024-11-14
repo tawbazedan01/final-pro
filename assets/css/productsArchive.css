@@ -81,18 +81,6 @@ body {
     font-size: xx-large;
 }
 
-.text-contant .nav-link {
-    padding: 10px;
-    height: 50px;
-    width: 140px;
-    text-align: center;
-    background-color: var(--mainColor);
-    color: var(--linkColor);
-}
-
-.text-contant .nav-link:hover {
-    background-color: var(--hoverColor);
-}
 
 .col-md-3 .card {
     background-color: #fff8ed;
@@ -116,7 +104,7 @@ body {
     background-color: var(--mainColor);
     font-family: var(--mainFont);
     padding: 5px;
-    width: 50%;
+    width: 80%;
     text-align: center;
     font-size: large;
     text-decoration: none;
