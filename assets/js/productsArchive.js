@@ -32,4 +32,21 @@ function displayProducts(products) {
 
     });
 }
+
 displayProducts(products);
+
+
+document.querySelector("#productSort").addEventListener("change", function(e){
+    const value = e.target.value;
+    if (value === "oldest"){
+        //فرز تصاعدي حسب التاريخ الاقدم
+        products.sort((a,b)=> new Date(a.dateAdded) - new Date(b.dateAdded));
+
+    }else if(value === "newest"){
+        //فرز تنازلي حسب التاريخ الاحدث
+        products.sort((a,b)=> new Date(b.dateAdded) - new Date(a.dateAdded));
+    }
+    displayProducts(products);
+});
+
+
