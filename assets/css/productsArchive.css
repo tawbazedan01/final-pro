@@ -1,0 +1,238 @@
+@import url('./base.css');
+
+body {
+    background-image: url('./../img/bg-imgs/bg-1.png');
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-top: 40px;
+    --bs-nav-link-font-weight: 400;
+    --bs-nav-link-color: var(--mainColor);
+    --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-nav .nav-item {
+    --bs-nav-link-hover-color: var(--linkColor);
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+    clear: both;
+    font-weight: 400;
+    color: var(--linkColor);
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: var(--hoverColor);
+    border: 0;
+
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: var(--hoverColor);
+    --bs-dropdown-link-active-bg: var(--mainColor);
+}
+
+.get-start {
+    padding: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.register .btn,
+.login .btn {
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 10px;
+    height: 50px;
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+}
+
+.login .btn {
+    width: 70px;
+}
+
+.register .btn:hover {
+    background-color: var(--linkColor);
+    color: var(--mainColor);
+}
+
+.login .btn:hover {
+    background-color: var(--linkColor);
+    color: var(--mainColor);
+}
+
+.products {
+    background-color: #ffffff;
+}
+
+.products .text-contant .beauty {
+    font-family: var(--mainFont);
+    font-size: xx-large;
+}
+
+.text-contant .nav-link {
+    padding: 10px;
+    height: 50px;
+    width: 140px;
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+}
+
+.text-contant .nav-link:hover {
+    background-color: var(--hoverColor);
+}
+
+.col-md-3 .card {
+    background-color: #fff8ed;
+    border: none;
+    border-radius: 0%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-body .card-title {
+    font-family: var(--mainFont);
+    font-size: large;
+    font-weight: 500;
+}
+
+.card-body .add {
+    background-color: var(--mainColor);
+    font-family: var(--mainFont);
+    padding: 5px;
+    width: 50%;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    color: var(--linkColor);
+}
+
+.card-body .price {
+    color: #e98634;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.card-body .add:hover {
+    background-color: var(--hoverColor);
+
+}
+
+@media screen and (max-width:990px) {
+    .products .card-body .add {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .products .text-contant .beauty {
+        font-family: var(--mainFont);
+        font-size: large;
+    }
+
+    .flex-column {
+        gap: 12px;
+    }
+
+    .card-body {
+        gap: 10px;
+    }
+
+    .card-body .card-title {
+        width: 100%;
+    }
+
+    .card-body .add {
+        padding: 5px;
+        width: 100%;
+
+    }
+}
+
+
+.footer-contant {
+    background-image: url(../img/bg-imgs/bg-1.png);
+}
+
+.footer-contant .footer-s1 .nav-link {
+    font-family: var(--mainFont);
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+    background-color: var(--mainColor);
+    border-radius: 5px;
+    color: var(--linkColor);
+}
+
+.footer-contant .footer-s1 .nav-link:hover {
+    background-color: var(--linkColor);
+    color: var(--mainColor);
+}
+
+.footer-contant .row .social-media i {
+    text-align: center;
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer-contant .row .social-media i:hover {
+    background-color: var(--linkColor);
+    color: var(--hoverColor);
+}
+
+.footer-contant .row .nav-link {
+    font-family: var(--mainFont);
+    font-size: larger;
+    font-weight: 600;
+}
+
+.footer-contant .row .footer-s2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-contant .row .list-group {
+    font-family: var(--mainFont);
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 990px) {
+    .footer-contant .footer-s1 {
+        flex-direction: column;
+    }
+
+    .footer-contant .row .footer-s2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        max-width: fit-content;
+    }
+
+    .footer-contant .footer-s3 {
+
+        flex-direction: column;
+        align-items: start;
+        max-width: fit-content;
+    }
+}
