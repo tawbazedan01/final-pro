@@ -357,10 +357,23 @@ body {
 }
 
 .footer-contant .row .list-group {
-    font-family: var(--mainFont);
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
+
+.footer-contant .row .list-group .link {
+    text-decoration: none;
+    color: var(--mainColor);
+    font-family: var(--mainFont);
+
+}
+
+.footer-contant .footer-s3 .link {
+    text-decoration: none;
+    color: var(--mainColor);
+    font-family: var(--mainFont);
+}
+
 
 @media screen and (max-width: 990px) {
     .footer-contant .footer-s1 {

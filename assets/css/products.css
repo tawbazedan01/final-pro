@@ -81,28 +81,27 @@ body {
     font-size: xx-large;
 }
 
-.text-contant .nav-link {
-    padding: 10px;
-    height: 50px;
-    width: 140px;
-    text-align: center;
-    background-color: var(--mainColor);
-    color: var(--linkColor);
-}
 
-.text-contant .nav-link:hover {
-    background-color: var(--hoverColor);
-}
-
-.col-md-4 .card {
+.col-12 .card {
     background-color: #fff8ed;
     border: none;
     border-radius: 0%;
+
+}
+
+.card .card-img-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
 }
 
 .card-body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 15px;
 }
 
@@ -116,7 +115,7 @@ body {
     background-color: var(--mainColor);
     font-family: var(--mainFont);
     padding: 5px;
-    width: 50%;
+    width: 80%;
     text-align: center;
     font-size: large;
     text-decoration: none;
@@ -165,7 +164,6 @@ body {
 
     }
 }
-
 
 .section-4 {
     background-image: url(../img/bg-imgs/bg-1.png);
@@ -564,10 +562,23 @@ body {
 }
 
 .footer-contant .row .list-group {
-    font-family: var(--mainFont);
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
+
+.footer-contant .row .list-group .link {
+    text-decoration: none;
+    color: var(--mainColor);
+    font-family: var(--mainFont);
+
+}
+
+.footer-contant .footer-s3 .link {
+    text-decoration: none;
+    color: var(--mainColor);
+    font-family: var(--mainFont);
+}
+
 
 @media screen and (max-width: 990px) {
     .footer-contant .footer-s1 {

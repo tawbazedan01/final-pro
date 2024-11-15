@@ -75,76 +75,29 @@
     <main>
         <section class="products p-5">
             <div class="container">
-                <div class="text-contant pt-5 d-flex flex-column  flex-md-row  justify-content-between align-items-center wow animate__fadeInUp"
-                    data-wow-offset="50">
+                <div
+                    class="text-contant pt-5 d-flex flex-column  flex-md-row  justify-content-between align-items-center">
                     <div class="beauty">
                         <h2>Beauty Collection</h2>
                     </div>
                     <div class="d-flex">
-                        <a style="font-family: var(--mainFont); width: 100%;" class="nav-link" href="#">See All
-                            Products</a>
+                        <select class="p-1" name="Sort" id="productSort">
+                            <option value="select">Default sort</option>
+                            <option value="newest">Sort by result: low to high</option>
+                            <option value="oldest">Sort by result: high to low</option>
+                        </select>
                     </div>
                 </div>
                 <hr>
 
                 <div class="row pt-5 wow animate__fadeInUp" data-wow-offset="50" data-wow-delay="1s">
-                    <div class="col-md-4 mb-4">
-                        <div class="card p-3 h-100">
-                            <img src="./assets/img/productsPage/product1.png" class="card-img-top" alt="product photo">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="card p-3 h-100 d-flex">
+                            <img src="" class="card-img-top" alt="product photo">
                             <div class="card-body d-flex flex-column gap-1">
-                                <h5 class="card-title">Moisturizer SPF 30</h5>
-                                <span class="price d-block">$30</span>
-                                <div class="pt-3"><a href="#" class="add nav-link">Add to card</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card p-3 h-100">
-                            <img src="./assets/img/productsPage/product2.png" class="card-img-top" alt="product photo">
-                            <div class="card-body d-flex flex-column gap-1">
-                                <h5 class="card-title">Firming Neck Cream</h5>
-                                <span class="price d-block">$30</span>
-                                <div class="pt-3"><a href="#" class="add nav-link">Add to card</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card p-3 h-100">
-                            <img src="./assets/img/productsPage/product3.png" class="card-img-top" alt="product photo">
-                            <div class="card-body d-flex flex-column gap-1">
-                                <h5 class="card-title">Clarifying Face Wash</h5>
-                                <span class="price d-block">$30</span>
-                                <div class="pt-3"><a href="#" class="add nav-link">Add to card</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card p-3 h-100">
-                            <img src="./assets/img/productsPage/product4.png" class="card-img-top" alt="product photo">
-                            <div class="card-body d-flex flex-column gap-1">
-                                <h5 class="card-title">Hydrating Lip Balm</h5>
-                                <span class="price d-block">$30</span>
-                                <div class="pt-3"><a href="#" class="add nav-link">Add to card</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card p-3 h-100">
-                            <img src="./assets/img/productsPage/product5.png" class="card-img-top" alt="product photo">
-                            <div class="card-body d-flex flex-column gap-1">
-                                <h5 class="card-title">Brightening Eye Serum</h5>
-                                <span class="price d-block">$30</span>
-                                <div class="pt-3"><a href="#" class="add nav-link">Add to card</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-4">
-                        <div class="card p-3 h-100">
-                            <img src="./assets/img/productsPage/product6.png" class="card-img-top" alt="product photo">
-                            <div class="card-body d-flex flex-column gap-1">
-                                <h5 class="card-title">Purp Perfume</h5>
-                                <span class="price d-block">$30</span>
-                                <div class="pt-3"><a href="#" class="add nav-link">Add to card</a></div>
+                                <h5 class="card-title"></h5>
+                                <span class="price d-block"></span>
+                                <div class="pt-3"><a href="#" class="add nav-link"></a></div>
                             </div>
                         </div>
                     </div>
@@ -429,6 +382,7 @@
     <script>
         new WOW().init();
     </script>
+    <script src="./assets/js/productsArchive.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
