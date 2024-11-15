@@ -1,3 +1,13 @@
+window.onscroll = function () {
+    const nav = document.querySelector(".navbar");
+    if (window.scrollY > 50) {
+        nav.classList.add("scrollNavbar");
+    } else {
+        nav.classList.remove("scrollNavbar");
+    }
+}
+
+
 function addToCart(e) {
     e.preventDefault();
     const link = this;
@@ -43,7 +53,7 @@ let countDownDate = new Date().getTime() + 86400000;
 const countDown = () => {
     let now = new Date().getTime();
     let distance = countDownDate - now;
-    if(distance<=0){
+    if (distance <= 0) {
         countDownDate = now + 86400000;
         distance = countDownDate - now;
     }
