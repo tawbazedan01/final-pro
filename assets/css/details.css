@@ -151,6 +151,12 @@ body {
     border-bottom: 0;
     height: 50px;
 }
+
+.desc .card-body-1 .form-control {
+    box-shadow: none !important;
+    border: 1px solid black;
+}
+
 .card .form-check .form-check-input {
     box-shadow: none !important;
     border: 1px solid black;
@@ -170,22 +176,22 @@ body {
 }
 
 .star {
-    color: rgb(128, 128, 128); 
+    color: rgb(128, 128, 128);
     font-size: 20px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .star.hover {
-    color: #925774; 
+    color: #925774;
 }
 
 .star.selected {
-    color: var(--hoverColor); 
+    color: var(--hoverColor);
 }
 
 
-  
+
 
 
 

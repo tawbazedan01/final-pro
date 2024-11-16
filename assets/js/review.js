@@ -42,3 +42,20 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+
+document.querySelector("form").addEventListener("submit", function (event) {
+  let review = document.querySelector("#exampleFormControlTextarea1").value;
+  let name = document.querySelector("#exampleFormControlInput1").value;
+  let email = document.querySelector("#exampleFormControlInput1").value;
+  let checkbox = document.querySelector("#flexCheckDefault").checked;
+
+  if (!review || !name || !email || !checkbox) {
+    alert("Please select a rating and give us your review");
+    event.preventDefault();
+  }
+});
+
+
+
+
