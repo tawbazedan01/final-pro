@@ -32,8 +32,8 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="./products.html">Products</a></li>
                             <li><a class="dropdown-item" href="./details.html">Products Details</a></li>
-                            <li><a class="dropdown-item" href="#">Cart</a></li>
-                            <li><a class="dropdown-item" href="#">Checkout</a></li>
+                            <li><a class="dropdown-item" href="./cart.html">Cart</a></li>
+                            <li><a class="dropdown-item" href="./checkout.html">Checkout</a></li>
                             <li><a class="dropdown-item" href="./account.html">My account</a></li>
                         </ul>
                     </li>
@@ -142,15 +142,23 @@
                                     <p>Your email address will not be published. Required fields are marked *</p>
                                 </div>
                                 <div class="rating">
-                                    <p>Your rating *</p>
-                                    <div class="icon" style="color: var(--hoverColor);">
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                        <i class="fa-regular fa-star"></i>
-                                    </div>
+                                    <span class="star" data-value="1">
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                    <span class="star" data-value="2">
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                    <span class="star" data-value="3">
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                    <span class="star" data-value="4">
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                    <span class="star" data-value="5">
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
                                 </div>
+
                                 <form action="" class="pt-3">
                                     <div class="mb-3">
                                         <label for="exampleFormControlTextarea1" class="pb-2">Your review *</label>
@@ -392,7 +400,7 @@
     <script>
         new WOW().init();
     </script>
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/review.js"></script>
 </body>
 
 </html>
