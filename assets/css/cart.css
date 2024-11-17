@@ -83,8 +83,131 @@ body {
     color: var(--mainColor);
 }
 
+.cart {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--linkColor);
+}
+
+.cart .cart-contant {
+    border: 1px solid black;
+}
+
+.cart .cart-contant h6 {
+    font-family: var(--mainFont);
+    font-size: 15px;
+}
+
+.cart .cart-contant .contant {
+    border-bottom: 1px solid black;
+}
+
+.cart .cart-contant .nav-link {
+    font-family: var(--mainFont);
+    width: 25%;
+    padding: 15px;
+    background-color: #e1e1e1;
+    color: #3f3f3f;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cart .cart-contant .nav-link:hover {
+    background-color: #b4b4b4;
+}
+
+.cart .coupon {
+    border: 1px solid black;
+}
+
+.cart .coupon input {
+    border: 1px solid #fafafa;
+    padding: 10px;
+    width: 60%;
+    background-color: #fafafa;
+}
+
+.cart .coupon button {
+    width: 30%;
+    background-color: var(--mainColor);
+    color: var(--linkColor);
+    border: 1px solid var(--mainColor);
+    font-family: var(--mainFont);
+}
+
+.cart .coupon button:hover {
+    background-color: var(--hoverColor);
+    border: 1px solid var(--hoverColor);
+}
+
+.cart .col-4 {
+    border: 1px solid black;
+    height: 280px;
+}
+
+.cart .cart-totals .checkout button {
+    width: 100%;
+    padding: 10px;
+    font-family: var(--mainFont);
+    font-size: 17px;
+    border-radius: 3px;
+    color: var(--linkColor);
+    border: 1px solid var(--hoverColor);
+    background-color: var(--hoverColor);
+}
+
+.cart .cart-totals .checkout button:hover {
+    border: 1px solid var(--mainColor);
+    background-color: var(--mainColor);
+}
+
+@media screen and (max-width:995px) {
+    .cart .row {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .cart .col-8 {
+        width: 100%;
+    }
+
+    .cart .col-4 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:775px) {
+    .cart .col-8 {
+        width: 70%;
+    }
+
+    .cart .cart-contant .contant {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .cart .cart-contant .nav-link {
+        width: 70%;
+    }
+
+    .cart .coupon {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cart .coupon input {
+        width: 90%;
+    }
+
+    .cart .coupon button {
+        width: 70%;
+    }
 
 
+}
 
 .footer-contant {
     background-image: url(../img/bg-imgs/bg-1.png);
