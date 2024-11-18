@@ -108,6 +108,10 @@ body {
     border-bottom: 1px solid black;
 }
 
+.cart .cart-contant .contant .product span{
+    color: var(--hoverColor);
+}
+
 .cart .cart-contant .nav-link {
     font-family: var(--mainFont);
     width: 25%;

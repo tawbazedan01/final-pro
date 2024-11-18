@@ -89,7 +89,89 @@ body {
     }
 }
 
+.checkout {
+    background-color: var(--linkColor);
+}
 
+.checkout h5 {
+    font-family: var(--mainFont);
+
+}
+
+.checkout .billing label {
+    font-family: var(--mainFont);
+    color: #d69898;
+}
+
+.checkout .billing .billing-det {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.checkout .billing input,
+.checkout .billing select,
+.checkout .billing textarea {
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    color: #a79d9d;
+}
+
+.checkout .billing .order-note {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.order .order-contant {
+    padding: 20px;
+    border: 1px solid black;
+    height: 250px;
+}
+
+.order .coupon {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.order .link {
+    text-decoration: none;
+    color: var(--hoverColor);
+}
+
+.order .text {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.order .text .text-1 {
+    padding: 5px;
+    background-color: #fff8ed;
+}
+
+.order .text button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: var(--mainFont);
+    background-color: var(--hoverColor);
+    border: 1px solid var(--hoverColor);
+    color: var(--linkColor);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.order .text button:hover {
+    background-color: #fff8ed;
+    color: var(--mainColor);
+    border: 1px solid #fff8ed;
+}
+
+@media screen and (max-width:990px) {
+    .checkout .billing .billing-det .name {
+        flex-direction: column;
+    }
+}
 
 .footer-contant {
     background-image: url(../img/bg-imgs/bg-1.png);
