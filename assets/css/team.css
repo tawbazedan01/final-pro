@@ -84,6 +84,12 @@ body {
     color: var(--mainColor);
 }
 
+@media screen and (max-width:991px) {
+    .navbar-collapse {
+        background-color: var(--hoverColor);
+    }
+}
+
 .section-4 {
     width: 100%;
     background-color: #fafafa;
