@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-    // تحقق من كود الخصم
+   
     couponButton.addEventListener('click', () => {
         const couponInput = document.querySelector('.coupon input').value;
         if (couponInput === "DISCOUNT10") {
