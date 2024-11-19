@@ -89,8 +89,14 @@ body {
     }
 }
 
+
 .products {
     background-color: #ffffff;
+}
+
+.products .swiper .swiper-button-next,
+.products .swiper .swiper-button-prev {
+    color: var(--hoverColor);
 }
 
 .products .text-contant .beauty {
@@ -187,6 +193,40 @@ body {
 
     }
 }
+
+.modal .modal-dialog .modal-md {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal .modal-content,
+.modal .modal-content .modal-header {
+
+    border-radius: 5px;
+    background-color: #fff8ed;
+    font-family: var(--mainFont);
+    padding: 5px;
+    width: 90%;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;
+    color: var(--mainColor);
+}
+
+.modal-body .link {
+    text-decoration: none;
+    color: var(--hoverColor);
+}
+
+
+
+
+.d-none {
+    display: none;
+}
+
+
 
 .section-4 {
     background-image: url(../img/bg-imgs/bg-1.png);
