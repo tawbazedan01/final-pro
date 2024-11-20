@@ -77,73 +77,74 @@
                 <div class="row pt-5 pb-5 gap-3 gap-md-0 ">
                     <div class="col-12 col-md-7 ">
                         <div class="billing d-flex flex-column gap-3">
-                            <div class="billing-det d-flex flex-column gap-3">
+                            <div class="billing-det ">
                                 <h5>Billing Details</h5>
-                                <div class="name d-flex gap-5">
-                                    <div class="first-name d-flex flex-column gap-2">
-                                        <label for="first-name">First Name</label>
-                                        <input type="text" id="first name" placeholder="First Name">
-                                    </div>
+                                <form action="" class="d-flex flex-column gap-3">
+                                    <div class="name d-flex gap-5">
+                                        <div class="first-name d-flex flex-column gap-2">
+                                            <label for="first-name">First Name</label>
+                                            <input type="text" id="first name" placeholder="First Name" required>
+                                        </div>
 
-                                    <div class="last-name d-flex flex-column gap-2">
-                                        <label for="last name">Last Name</label>
-                                        <input type="text" id="last name" placeholder="Last Name">
+                                        <div class="last-name d-flex flex-column gap-2">
+                                            <label for="last name">Last Name</label>
+                                            <input type="text" id="last name" placeholder="Last Name" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="company">
-                                    <div class="company-name d-flex flex-column gap-2">
-                                        <label for="company-name">Company Name (optional)
-                                        </label>
-                                        <input type="text" id="company-name" placeholder="Company Name">
+                                    <div class="company">
+                                        <div class="company-name d-flex flex-column gap-2">
+                                            <label for="company-name">Company Name (optional)
+                                            </label>
+                                            <input type="text" id="company-name" placeholder="Company Name" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="country">
-                                    <div class="country-name d-flex flex-column gap-2">
-                                        <label for="country-name">Country / Region</label>
-                                        <select name="" id="country-name">
-                                            <option value="us">United States</option>
-                                            <option value="ca">Canada</option>
-                                            <option value="fr">France</option>
-                                            <option value="de">Germany</option>
-                                            <option value="eg">Egypt</option>
-                                        </select>
+                                    <div class="country">
+                                        <div class="country-name d-flex flex-column gap-2">
+                                            <label for="country-name">Country / Region</label>
+                                            <select name="" id="country-name" required>
+                                                <option value="us">United States</option>
+                                                <option value="ca">Canada</option>
+                                                <option value="fr">France</option>
+                                                <option value="de">Germany</option>
+                                                <option value="eg">Egypt</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="street">
-                                    <div class="Street-address d-flex flex-column gap-2">
-                                        <label for="Street-address">Street address
-                                        </label>
-                                        <input type="text" id="Street-address"
-                                            placeholder="House number and street name">
-                                        <input type="text" id="Street-address"
-                                            placeholder="Apartment, suite, unit, etc. (optional)">
+                                    <div class="street">
+                                        <div class="Street-address d-flex flex-column gap-2">
+                                            <label for="Street-address">Street address
+                                            </label>
+                                            <input type="text" id="Street-address"
+                                                placeholder="House number and street name" required>
+                                            <input type="text" id="Street-address"
+                                                placeholder="Apartment, suite, unit, etc. (optional)" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="city">
-                                    <div class="city-name d-flex flex-column gap-2">
-                                        <label for="city-name">Town / City</label>
-                                        <input type="text">
+                                    <div class="city">
+                                        <div class="city-name d-flex flex-column gap-2">
+                                            <label for="city-name">Town / City</label>
+                                            <input type="text" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="phone">
-                                    <div class="phone-num d-flex flex-column gap-2">
-                                        <label for="phone-num">Phone</label>
-                                        <input type="number" id="phone-num" placeholder="Phone">
+                                    <div class="phone">
+                                        <div class="phone-num d-flex flex-column gap-2">
+                                            <label for="phone-num">Phone</label>
+                                            <input type="number" id="phone-num" placeholder="Phone" required>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="email">
-                                    <div class="email d-flex flex-column gap-2">
-                                        <label for="email-address">Email Address</label>
-                                        <input type="email" id="email-address" placeholder="Email Address">
+                                    <div class="email">
+                                        <div class="email d-flex flex-column gap-2">
+                                            <label for="email-address">Email Address</label>
+                                            <input type="email" id="email-address" placeholder="Email Address" required>
+                                        </div>
                                     </div>
-                                </div>
                             </div>
                             <div class="order-note d-flex flex-column gap-2">
                                 <label for="note">Order Note (optional)</label>
                                 <textarea name=""
                                     id="note"> Notes about your order, e.g. special notes for delivery. </textarea>
-
                             </div>
+                            </form>
                         </div>
                     </div>
                     <div class="col-12 col-md-5">
@@ -191,7 +192,6 @@
             </section>
         </section>
     </main>
-
 
     <footer class="footer-contant p-5">
         <div class="container">

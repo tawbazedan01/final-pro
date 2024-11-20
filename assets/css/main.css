@@ -84,8 +84,9 @@ body {
 }
 
 @media screen and (max-width:991px) {
-    .navbar-collapse {
+    .navbar .navbar-collapse {
         background-color: var(--hoverColor);
+        padding-left: 15px;
     }
 }
 
@@ -667,7 +668,10 @@ body {
     }
 
     .section-7 .row img {
-        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
     }
 }
 

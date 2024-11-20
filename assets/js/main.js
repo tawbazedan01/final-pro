@@ -19,6 +19,9 @@ document.querySelectorAll(".add").forEach(function (button) {
     button.onclick = addToCart;
 });
 
+
+
+
 let firstNum = 0;
 
 function countPlus() {
@@ -44,9 +47,9 @@ function countPercent() {
         percentNum++;
     }
 }
-let intervalPlus = setInterval(countPlus, 50);
-let intervalMillion = setInterval(countMillion, 300);
-let intervalPercent = setInterval(countPercent, 50);
+let intervalPlus = setInterval(countPlus, 75);
+let intervalMillion = setInterval(countMillion, 650);
+let intervalPercent = setInterval(countPercent, 100);
 
 
 let countDownDate = new Date().getTime() + 86400000;
@@ -68,4 +71,3 @@ setInterval(() => {
     countDown();
 }, 1000)
 
-  

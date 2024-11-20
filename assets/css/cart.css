@@ -84,8 +84,9 @@ body {
 }
 
 @media screen and (max-width:991px) {
-    .navbar-collapse {
+    .navbar .navbar-collapse {
         background-color: var(--hoverColor);
+        padding-left: 15px;
     }
 }
 
@@ -108,7 +109,7 @@ body {
     border-bottom: 1px solid black;
 }
 
-.cart .cart-contant .contant .product span{
+.cart .cart-contant .contant .product span {
     color: var(--hoverColor);
 }
 
@@ -150,7 +151,7 @@ body {
     border: 1px solid var(--hoverColor);
 }
 
-.cart .col-4 {
+.cart .contact-2 {
     border: 1px solid black;
     height: 280px;
 }
@@ -181,7 +182,7 @@ body {
         width: 100%;
     }
 
-    .cart .col-4 {
+    .cart .contact-2 {
         width: 90%;
         margin: 10px;
     }
@@ -212,7 +213,8 @@ body {
     }
 
     .cart .coupon button {
-        width: 70%;
+        padding: 10px;
+        width: 80%;
     }
 
 

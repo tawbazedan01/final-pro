@@ -85,8 +85,9 @@ body {
 }
 
 @media screen and (max-width:991px) {
-    .navbar-collapse {
+    .navbar .navbar-collapse {
         background-color: var(--hoverColor);
+        padding-left: 15px;
     }
 }
 
