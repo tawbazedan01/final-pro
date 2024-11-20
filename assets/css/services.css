@@ -95,6 +95,7 @@ body {
 }
 
 .services .col-12 .service {
+    height: 100%;
     background-color: var(--linkColor);
     border: 1px solid black;
 }
