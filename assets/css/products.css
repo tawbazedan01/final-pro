@@ -176,8 +176,6 @@ body {
         gap: 12px;
     }
 
-    .card .card-img-top {}
-
     .card-body {
         gap: 10px;
     }
@@ -189,6 +187,15 @@ body {
     .card-body .add {
         padding: 5px;
         width: 100%;
+
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    .products .swiper .swiper-button-next,
+    .products .swiper .swiper-button-prev {
+        display: none;
 
     }
 }
@@ -393,7 +400,11 @@ body {
     background-color: var(--hoverColor);
 }
 
-
+@media screen and (max-width:575px) {
+    .section-6 .sec6-contant p {
+        width: 100%;
+    }
+}
 
 .product-2 {
     background-color: #fafafa;
