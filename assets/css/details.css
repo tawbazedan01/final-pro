@@ -197,7 +197,15 @@ body {
     color: var(--hoverColor);
 }
 
-
+@media screen and (max-width:768px) {
+    .price .contant .icon{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon .icons{
+        display: flex;
+    }
+}
 
 
 
