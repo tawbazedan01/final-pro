@@ -99,7 +99,8 @@ body {
 
 }
 
-.checkout .billing label {
+.checkout .billing label,
+.checkout .billing button {
     font-family: var(--mainFont);
     color: #d69898;
 }
@@ -111,11 +112,18 @@ body {
 
 .checkout .billing input,
 .checkout .billing select,
-.checkout .billing textarea {
+.checkout .billing textarea,
+.checkout .billing button {
     padding: 10px;
     background-color: #fafafa;
     border: 1px solid #fafafa;
     color: #a79d9d;
+}
+
+.checkout .billing button:hover {
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    color: #d69898;
 }
 
 .checkout .billing .order-note {

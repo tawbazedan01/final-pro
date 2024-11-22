@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-   
+
     couponButton.addEventListener('click', () => {
         const couponInput = document.querySelector('.coupon input').value;
         if (couponInput === "DISCOUNT10") {
