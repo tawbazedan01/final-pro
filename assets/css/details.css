@@ -198,11 +198,12 @@ body {
 }
 
 @media screen and (max-width:768px) {
-    .price .contant .icon{
+    .price .contant .icon {
         display: flex;
         flex-direction: column;
     }
-    .icon .icons{
+
+    .icon .icons {
         display: flex;
     }
 }
@@ -303,7 +304,7 @@ body {
 
 
 .section-6 {
-    background-color: #fafafa;
+    background-color: var(--linkColor);
 }
 
 .section-6 .row {
